@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zam2zCq8YIy7kkLubYQVtfga9PgNpTwDIbPGkj9oo5axSIBd+gHIRwPbSUm6zVwuttM2mGYelQb4tZVcQkUuiw==",
+  "success": true,
+  "projectFilePath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "/Users/andreamartinez/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/andreamartinez/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
