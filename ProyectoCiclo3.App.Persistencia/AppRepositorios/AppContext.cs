@@ -10,6 +10,8 @@ namespace ProyectoCiclo3.App.Persistencia
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
             if(!optionsBuilder.IsConfigured){
                 optionsBuilder.UseSqlServer("Data Source = localhost; Initial Catalog = ProyectoCiclo3;User ID=sa;Password=Password.1;");
+                //optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = ProyectoCiclo3");
+
             }
         }
     }
