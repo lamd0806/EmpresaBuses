@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj": {}
+    "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj": {}
   },
   "projects": {
-    "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj": {
+    "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj",
+        "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj",
         "projectName": "ProyectoCiclo3.App.Dominio",
-        "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj",
+        "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj",
         "packagesPath": "/Users/andreamartinez/.nuget/packages/",
-        "outputPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Dominio/obj/",
+        "outputPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andreamartinez/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj": {
+    "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj",
+        "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj",
         "projectName": "ProyectoCiclo3.App.Persistencia",
-        "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj",
+        "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj",
         "packagesPath": "/Users/andreamartinez/.nuget/packages/",
-        "outputPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Persistencia/obj/",
+        "outputPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andreamartinez/.nuget/NuGet/NuGet.Config"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj": {
-                "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj"
+              "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj": {
+                "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj"
               }
             }
           }
