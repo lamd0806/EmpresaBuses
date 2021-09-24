@@ -1,42 +1,24 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.ListBusModel
 @{
 }
  
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Marca</th>
-      <th scope="col">Modelo</th>
-      <th scope="col">Kilometraje</th>
-      <th scope="col">Número de Asientos</th>
-      <th scope="col">Placa</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Hyundai</td>
-      <td>2019</td>
-      <td>56000</td>
-      <td>5</td>
-      <td>POI98</td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mazda</td>
-      <td>2020</td>
-      <td>6000</td>
-      <td>5</td>
-      <td>TYU98</td>
-    </tr>
-    <tr>
-     <th scope="row">1</th>
-      <td>BMW</td>
-      <td>2019</td>
-      <td>8500</td>
-      <td>5</td>
-      <td>PYT69</td>
-    </tr>
-  </tbody>
+<h1>Listado de Buses</h1>
+<table class="table">
+    @foreach (var bus in Model.Buses)
+    {
+        <tr>
+            <td>@bus.id</td>
+            <td>@bus.marca</td>
+            <td>@bus.modelo</td>
+            <td>@bus.kilometraje</td>
+            <td>@bus.numero_asientos</td>
+            <td>@bus.placa</td>
+            <td>
+              <a class="btn btn-info" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-info" href="">Editar</a>
+              <a class="btn btn-danger" href="">Eliminar</a>
+              </td>
+        </tr>
+    }
 </table>
