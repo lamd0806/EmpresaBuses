@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DB3hyq1Obi+XxgmywKK4RzBSrx51VraEKm3mElL15OQu7MRqhbQh6k7nZmxMUJvgYKXOBMzu6NQ9v6j0q3+pww==",
+  "dgSpecHash": "l8cA1m9j7rlvIzeQ/7OTFs70PepiltTmzkXc4Ex5fkuFFXPDIZMqBXE4y1WNUsK/PTI5toHICG/3XEqwGoUhtQ==",
   "success": true,
-  "projectFilePath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj",
+  "projectFilePath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "/Users/andreamartinez/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/andreamartinez/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
