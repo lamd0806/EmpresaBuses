@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
  
-namespace HolaWeb.App.Frontend.Pages
+namespace ProyectoCiclo3.App.Frontend.Pages
 {
-    public class FormRutasModel : PageModel
+    public class FormRutaModel : PageModel
     {
         public void OnGet()
         {

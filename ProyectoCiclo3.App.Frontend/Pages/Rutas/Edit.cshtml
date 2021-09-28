@@ -1,0 +1,26 @@
+@page
+@model ProyectoCiclo3.App.Frontend.Pages.EditRutaModel
+@{
+    var ruta = Model.Ruta;
+}
+ 
+<div class="text-center">
+  <form action="">
+    <div class="row justify-content-md-center">
+      <div class="col-6 col-md-auto col-lg-4">
+        <label for="id" class="form-label d-none">Id</label>
+        <input type="text" class="form-label d-none" id="idruta" name="idruta" placeholder="Ingrese el Id" asp-for="@ruta.id">
+        <label for="origen" class="form-label">Origen</label>
+        <input type="text" class="form-control" id="origen" name="origen" placeholder="Ingrese el Origen" asp-for="@ruta.origen">
+        <label for="destino" class="form-label">Destino</label>
+        <input type="text" class="form-control" id="destino" name="destino" placeholder="Ingrese el Destino" asp-for="@ruta.destino">
+        <label for="tiempo_estimado" class="form-label">Tiempo Estimado</label>
+        <input type="text" class="form-control" id="tiempo_estimado" name="tiempo_estimado" placeholder="Ingrese el tiempo estimado" asp-for="@ruta.tiempo_estimado">
+  
+      </div>
+    </div>
+    <hr>
+    <button type="submit" class="btn btn-success">Enviar</button>
+  </form>
+</div>
+
