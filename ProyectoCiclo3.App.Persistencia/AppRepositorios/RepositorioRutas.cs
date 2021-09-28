@@ -1,0 +1,45 @@
+
+using System.Collections.Generic;
+using ProyectoCiclo3.App.Dominio;
+using System.Linq;
+using System;
+
+namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
+{
+    public class RepositorioRutas{
+            List<Rutas> rutas;
+ 
+    public RepositorioRutas()
+        {
+            rutas= new List<Rutas>()
+            {
+                //Los nombres de los campos deben coincidir con los nombres creados en la entidad
+                new Rutas{id=1,origen="Medellin",destino= "Bogota",tiempo_estimado= 30},
+                new Rutas{id=2,origen="Bogota",destino= "Miami",tiempo_estimado= 180},
+                new Rutas{id=3,origen="Los Angeles",destino= "Medellin",tiempo_estimado= 210}
+ 
+            };
+        }
+ 
+        public IEnumerable<Rutas> GetAll()
+        {
+            return rutas;
+        }
+ 
+        public Rutas GetRutasWithId(int id){
+            return rutas.SingleOrDefault(r => r.id == id);
+        }
+
+        public Rutas Update(Rutas newRutas){
+            var ruta= rutas.SingleOrDefault(r => r.id == newRutas.id);
+            if(ruta != null){
+                ruta.origen = newRutas.origen;
+                ruta.destino = newRutas.destino;
+                ruta.tiempo_estimado = newRutas.tiempo_estimado;
+            }
+        return ruta;
+        }
+
+
+    }
+}

@@ -5840,11 +5840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Consola/ProyectoCiclo3.App.Consola.csproj",
+      "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Consola/ProyectoCiclo3.App.Consola.csproj",
       "projectName": "ProyectoCiclo3.App.Consola",
-      "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Consola/ProyectoCiclo3.App.Consola.csproj",
+      "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Consola/ProyectoCiclo3.App.Consola.csproj",
       "packagesPath": "/Users/andreamartinez/.nuget/packages/",
-      "outputPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Consola/obj/",
+      "outputPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Consola/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/andreamartinez/.nuget/NuGet/NuGet.Config"
@@ -5858,8 +5858,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj": {
-              "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj"
+            "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj": {
+              "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HQo0qL6pHG2E3EUQ+xWto7jjfI7BNcdo8WbIhnfVMz/0E7mRSqO4lbnrJDIr6EwilRkCwr6e2JYr+cK2DoeCQA==",
+  "dgSpecHash": "oici4nGvINKfNeGN2QC9Xt8t+KJ2LFL1kSMZLv1NC86v6RqKoLYUrp3VkcawyLUB09CD0e2xAYB2mUAjfy4sfw==",
   "success": true,
-  "projectFilePath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/ProyectoCiclo3.App/ProyectoCiclo3.App.Consola/ProyectoCiclo3.App.Consola.csproj",
+  "projectFilePath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Consola/ProyectoCiclo3.App.Consola.csproj",
   "expectedPackageFiles": [
     "/Users/andreamartinez/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/andreamartinez/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
