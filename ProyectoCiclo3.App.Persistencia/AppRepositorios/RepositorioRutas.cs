@@ -14,9 +14,9 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             rutas= new List<Rutas>()
             {
                 //Los nombres de los campos deben coincidir con los nombres creados en la entidad
-                new Rutas{id=1,origen="Medellin",destino= "Bogota",tiempo_estimado= 30},
-                new Rutas{id=2,origen="Bogota",destino= "Miami",tiempo_estimado= 180},
-                new Rutas{id=3,origen="Los Angeles",destino= "Medellin",tiempo_estimado= 210}
+                new Rutas{id=1,origen=1,destino= 2,tiempo_estimado= 30},
+                new Rutas{id=2,origen=2,destino= 3,tiempo_estimado= 180},
+                new Rutas{id=3,origen=5,destino= 1,tiempo_estimado= 210}
  
             };
         }
