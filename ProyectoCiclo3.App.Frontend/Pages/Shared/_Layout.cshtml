@@ -7,34 +7,48 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Bienvenid@S</a>
+<body style="background-color:#fdfd8d">
+    
+    <header style="background-color:#fdfd8d">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black;" class="container">
+                <a style="font-size:1.5rem" class="navbar-brand" asp-area="" asp-page="/Index">Bienvenid@S</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <div style="background: linear-gradient(#ffbf47, #fdfd8d)" class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Buses/Create">Registrar Buses</a>
+                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="font-size:1.5rem; background: linear-gradient(#ffbf47, #fdfd8d)">
+                            Buses
+                            </a>
+                            <ul class="dropdown-menu" style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black">
+                                <li><a class="dropdown-item" href="/Buses/Create">Registro de Buses</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="/Buses/List">Listado de Buses</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Buses/List">Ver Buses</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="font-size:1.5rem; background: linear-gradient(#ffbf47, #fdfd8d)">
+                            Estaciones
+                            </a>
+                            <ul class="dropdown-menu" style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black">
+                                <li><a class="dropdown-item" href="/Estaciones/Create">Registro de Estaciones</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="/Estaciones/List">Listado de Estaciones</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/Create">Registrar Rutas</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/List">Ver Rutas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/Create">Registrar Estaciones</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/List">Ver Estaciones</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="font-size:1.5rem; background: linear-gradient(#ffbf47, #fdfd8d)">
+                            Rutas
+                            </a>
+                            <ul class="dropdown-menu" style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black">
+                                <li><a class="dropdown-item" href="/Rutas/Create">Registro de Rutas</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="/Rutas/List">Listado de Rutas</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -48,7 +62,7 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div style="background-color:rgb(255, 191, 81);" class="container">
             &copy; 2021 - GRUPO 25 EQUIPO COLABORATIVO 3 - MINTIC - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>

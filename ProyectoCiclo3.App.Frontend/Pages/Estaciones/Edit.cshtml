@@ -1,0 +1,42 @@
+@page
+@model ProyectoCiclo3.App.Frontend.Pages.EditEstacionesModel
+@{
+    var estacion = Model.Estacion;
+}
+ 
+<div class="text-center">
+  <h1 style="background: linear-gradient(#000046, #2f4f4f); color: #dcdcdc">Edicion de Estaciones</h1>
+  <form method="post" style="background:#d3d3d3" class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col-6">
+        <label for="id" class="form-label d-none" style="font-size:1.5rem">id:</label>
+        <input type="number" class="form-control d-none" style="background: #ffe4b5;border:2px solid black" id="id" name="id" placeholder="id" asp-for="@estacion.id">
+
+        <label for="nombre" class="form-label" style="font-size:1.5rem">Nombre de la estacion:</label>
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="nombre" name="nombre" placeholder="Nombre de la estacion" asp-for="@estacion.nombre">
+        <hr>
+        <label for="tipo" class="form-label" style="font-size:1.5rem">Tipo de estacion:</label>
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="tipo" name="tipo" placeholder="Tipo de estacion" asp-for="@estacion.tipo">
+      </div>  
+      <div class="col-6">
+        <label for="direccion" class="form-label" style="font-size:1.5rem">Direccion de la estacion:</label>
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="direccion" name="direccion" placeholder="Direccion de la estacion " asp-for="@estacion.direccion">
+        <hr>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <label for="coord_x" class="form-label" style="font-size:1.5rem">Coordenada x:
+              <input type="double" class="form-control" style="background: #ffe4b5;border:2px solid black" id="coord_x" name="coord_x" placeholder="Coordenada x" asp-for="@estacion.coord_x">
+            </label>
+          </div>
+          <div class="col-6">
+            <label for="coord_y" class="form-label" style="font-size:1.5rem">Coordenada y:
+              <input type="double" class="form-control" style="background: #ffe4b5;border:2px solid black" id="coord_y" name="coord_y" placeholder="Coordenada y" asp-for="@estacion.coord_y">
+            </label>
+          </div>
+        </div>
+      </div>   
+    </div>
+    <hr>
+    <button type="submit" class="btn btn-success">Enviar</button>
+  </form>
+</div>

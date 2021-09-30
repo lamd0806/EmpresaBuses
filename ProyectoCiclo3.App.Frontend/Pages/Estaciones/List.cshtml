@@ -3,8 +3,17 @@
 @{
 }
  
-<h1>Listado de Estaciones</h1>
-<table class="table">
+<h1 style="background: linear-gradient(#000046, #2f4f4f); color: #dcdcdc">Listado de Estaciones</h1>
+<table class="table table-secondary table-striped">
+    <tr style="background:linear-gradient(#000046, #2f4f4f); color:#dcdcdc">
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Direccion</th>
+        <th>Coordenada X</th>
+        <th>Coordenada Y</th>
+        <th>Tipo</th>
+        <th>Opciones</th>
+    </tr>
     @foreach (var estacion in Model.Estaciones)
     {
         <tr>
@@ -15,8 +24,8 @@
             <td>@estacion.coord_y</td>
             <td>@estacion.tipo</td>
             <td>
-              <a class="btn btn-info" asp-page="./Details" asp-route-estacionId="@estacion.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" href="">Editar</a>
+              <a class="btn btn-success" asp-page="./Details" asp-route-estacionId="@estacion.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-estacionId="@estacion.id">Editar</a>
               <a class="btn btn-danger" href="">Eliminar</a>
               </td>
         </tr>

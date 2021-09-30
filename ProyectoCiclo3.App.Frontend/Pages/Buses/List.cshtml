@@ -3,8 +3,17 @@
 @{
 }
  
-<h1>Listado de Buses</h1>
-<table class="table">
+<h1 style="background: linear-gradient(#000046, #2f4f4f); color: #dcdcdc">Listado de Buses</h1>
+<table class="table table-secondary table-striped">
+    <tr style="background:linear-gradient(#000046, #2f4f4f); color:#dcdcdc">
+        <th>Id</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Kilometraje</th>
+        <th>Numero de asientos</th>
+        <th>Placa</th>
+        <th>Opciones</th>
+    </tr>
     @foreach (var bus in Model.Buses)
     {
         <tr>
@@ -15,7 +24,7 @@
             <td>@bus.numero_asientos</td>
             <td>@bus.placa</td>
             <td>
-              <a class="btn btn-info" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-success" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
               <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@bus.id">Editar</a>
               <a class="btn btn-danger" href="">Eliminar</a>
               </td>
