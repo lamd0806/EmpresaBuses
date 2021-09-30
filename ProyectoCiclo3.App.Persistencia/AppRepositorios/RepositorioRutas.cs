@@ -1,4 +1,3 @@
-
 using System.Collections.Generic;
 using ProyectoCiclo3.App.Dominio;
 using System.Linq;
@@ -28,6 +27,13 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
  
         public Rutas GetRutasWithId(int id){
             return rutas.SingleOrDefault(r => r.id == id);
+        }
+
+        public Rutas Create(Rutas newRuta)
+        {
+           newRuta.id=rutas.Max(r => r.id) +1; 
+           rutas.Add(newRuta);
+           return newRuta;
         }
 
         public Rutas Update(Rutas newRutas){

@@ -21,7 +21,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
  
         public IActionResult OnGet(int estacionId)
         {
-                Estacion=repositorioEstaciones.GetBusWithId(estacionId);
+                Estacion=repositorioEstaciones.GetEstacionWithId(estacionId);
                 return Page();
  
         }

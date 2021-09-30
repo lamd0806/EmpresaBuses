@@ -1,30 +1,34 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.FormEstacionesModel
 @{
 }
  
 <div class="text-center">
-  <form action="">
+  <h1 style="background: linear-gradient(#000046, #2f4f4f); color: #dcdcdc">Registro de Estaciones</h1>
+  <form method="post" style="background:#d3d3d3" class="container-fluid">
     <div class="row justify-content-md-center">
-      <div class="col-6 col-md-auto col-lg-4">
-
-        <h3>Estaciones</h3>
-        
-        <label for="nombre" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese el nombre de la estación">
-
-        <label for="tipo" class="form-label">Tipo</label>
-        <input type="text" class="form-control" id="tipo" name="tipo" placeholder="Ingrese el tipo de estación">
-        
-        <label for="direccion" class="form-label">Direccion</label>
-        <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ingrese la direccion de la estación">
-         <label for="coord_x" class="form-label">Coordenada X</label>
-        <input type="number" class="form-control" id="coord_x" name="coord_x" placeholder="Ingrese la coordenada X">
-          
-        <label for="coord_y" class="form-label">Coordenada Y</label>
-        <input type="number" class="form-control" id="coord_y" name="coord_y" placeholder="Ingrese la Coordenada Y">
-      
-      </div>  
-       
+      <div class="col-6" >
+        <label for="nombre" style="font-size:1.5rem">Nombre de la estacion:</label>
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="nombre" name="nombre" placeholder="Ingrese nombre de la estacion">
+        <hr>
+        <label for="tipo" style="font-size:1.5rem">Tipo de estacion:</label>
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="tipo" name="tipo" placeholder="Ingrese el tipo de estacion">
+      </div>
+      <div class="col-6">
+        <label for="direccion" style="font-size:1.5rem">Direccion de la estacion:</label>
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="direccion" name="direccion" placeholder="Ingrese la direccion de la estacion">
+        <hr>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <label for="coord_x" style="font-size:1.2rem">Coordenada x:</label>
+            <input type="double" class="form-control" style="background: #ffe4b5;border:2px solid black" id="coord_x" name="coord_x" placeholder="Ingrese la coordenada x">
+          </div>
+          <div class="col-6">
+            <label for="coord_y" style="font-size:1.2rem">Coordenada y:</label>
+            <input type="double" class="form-control" style="background: #ffe4b5;border:2px solid black" id="coord_y" name="coord_y" placeholder="Ingrese la coordenada y">
+          </div>
+        </div>
+      </div>
     </div>
     <hr>
     <button type="submit" class="btn btn-success">Enviar</button>

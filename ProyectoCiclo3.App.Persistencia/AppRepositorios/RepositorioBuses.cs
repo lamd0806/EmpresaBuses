@@ -1,4 +1,3 @@
-
 using System.Collections.Generic;
 using ProyectoCiclo3.App.Dominio;
 using System.Linq;
@@ -28,6 +27,13 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
  
         public Buses GetBusWithId(int id){
             return buses.SingleOrDefault(b => b.id == id);
+        }
+        
+        public Buses Create(Buses newBus)
+        {
+           newBus.id=buses.Max(r => r.id) +1; 
+           buses.Add(newBus);
+           return newBus;
         }
 
         public Buses Update(Buses newBus){
