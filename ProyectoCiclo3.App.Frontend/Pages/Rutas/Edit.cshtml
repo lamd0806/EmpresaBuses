@@ -12,11 +12,11 @@
         <label for="id" class="form-label d-none" style="font-size:1.4rem">Id</label>
         <input type="text" class="form-label d-none" style="background: #ffe4b5;border:2px solid black" id="id" name="id" placeholder="Ingrese el Id" asp-for="@ruta.id">
         <label for="origen" class="form-label" style="font-size:1.4rem">Origen</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="origen" name="origen" placeholder="Ingrese el Origen" asp-for="@ruta.origen">
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="origen" name="origen" placeholder="Ingrese el Origen" asp-for="@ruta.origen" required>
         <label for="destino" class="form-label" style="font-size:1.4rem">Destino</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="destino" name="destino" placeholder="Ingrese el Destino" asp-for="@ruta.destino">
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="destino" name="destino" placeholder="Ingrese el Destino" asp-for="@ruta.destino" required>
         <label for="tiempo_estimado" class="form-label" style="font-size:1.4rem">Tiempo Estimado</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="tiempo_estimado" name="tiempo_estimado" placeholder="Ingrese el tiempo estimado" asp-for="@ruta.tiempo_estimado">
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="tiempo_estimado" name="tiempo_estimado" placeholder="Ingrese el tiempo estimado" asp-for="@ruta.tiempo_estimado" required>
   
       </div>
     </div>
