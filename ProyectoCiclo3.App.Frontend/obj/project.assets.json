@@ -1486,6 +1486,9 @@
       "ProyectoCiclo3.App.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/ProyectoCiclo3.App.Dominio.dll": {}
         },
@@ -5737,19 +5740,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andres\\.nuget\\packages\\": {}
+    "/Users/andreamartinez/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Frontend/ProyectoCiclo3.App.Frontend.csproj",
       "projectName": "ProyectoCiclo3.App.Frontend",
-      "projectPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\andres\\.nuget\\packages\\",
-      "outputPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Frontend\\obj\\",
+      "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Frontend/ProyectoCiclo3.App.Frontend.csproj",
+      "packagesPath": "/Users/andreamartinez/.nuget/packages/",
+      "outputPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Frontend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/andreamartinez/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5760,8 +5763,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-              "projectPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+            "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj": {
+              "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj"
             }
           }
         }
@@ -5792,7 +5795,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
       }
     }
   }

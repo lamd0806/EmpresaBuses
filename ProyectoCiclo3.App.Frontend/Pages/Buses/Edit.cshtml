@@ -12,15 +12,15 @@
   <label for="id" class="form-label d-none" style="font-size:1.4rem">id:</label>
   <input type="text" class="form-control d-none" style="background: #ffe4b5;border:2px solid black" id="id" name="id" placeholder="id" asp-for="@bus.id">
   <label for="Marca" class="form-label" style="font-size:1.4rem">Marca:</label>
-  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="marca" name="marca" placeholder="Marca" asp-for="@bus.marca">
+  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="marca" name="marca" placeholder="Marca" required asp-for="@bus.marca">
   <label for="Modelo" class="form-label" style="font-size:1.4rem">Modelo:</label>
-  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="modelo" name="modelo" placeholder="Modelo" asp-for="@bus.modelo">
+  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="modelo" name="modelo" placeholder="Modelo" required asp-for="@bus.modelo">
   <label for="Kilometraje" class="form-label" style="font-size:1.4rem">Kilometraje:</label>
-  <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="kilometraje" name="kilometraje" placeholder="Kilometraje" asp-for="@bus.kilometraje">
+  <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="kilometraje" name="kilometraje" placeholder="Kilometraje" required asp-for="@bus.kilometraje">
   <label for="Número de asientos" class="form-label" style="font-size:1.4rem">Número de asientos:</label>
-  <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="numero_asientos" name="numero_asientos" placeholder="Número de asientos" asp-for="@bus.numero_asientos">
+  <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="numero_asientos" name="numero_asientos" placeholder="Número de asientos" required asp-for="@bus.numero_asientos">
   <label for="Placa" class="form-label" style="font-size:1.4rem">Placa:</label>
-  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="Placa" name="placa" placeholder="placa" asp-for="@bus.placa">
+  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="Placa" name="placa" placeholder="placa" required maxlength="6" minlength="6" asp-for="@bus.placa">
   </div>
     </div>
   <hr>
