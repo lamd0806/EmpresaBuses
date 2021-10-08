@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andreamartinez/.nuget/NuGet/NuGet.Config"
-=======
-    "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-        "projectName": "ProyectoCiclo3.App.Dominio",
-        "projectPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\v\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\v\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> trunk
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -78,7 +61,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -90,19 +72,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andreamartinez/.nuget/NuGet/NuGet.Config"
-=======
-    "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
-        "projectName": "ProyectoCiclo3.App.Persistencia",
-        "projectPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\v\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\v\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> trunk
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -113,13 +82,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-<<<<<<< HEAD
               "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj": {
                 "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj"
-=======
-              "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
->>>>>>> trunk
               }
             }
           }
