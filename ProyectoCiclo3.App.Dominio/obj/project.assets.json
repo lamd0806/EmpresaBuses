@@ -280,11 +280,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/andreamartinez/.nuget/packages/": {}
+=======
+    "C:\\Users\\v\\.nuget\\packages\\": {}
+>>>>>>> trunk
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj",
       "projectName": "ProyectoCiclo3.App.Dominio",
       "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj",
@@ -293,6 +298,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/andreamartinez/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+      "projectName": "ProyectoCiclo3.App.Dominio",
+      "projectPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\v\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\v\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> trunk
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
