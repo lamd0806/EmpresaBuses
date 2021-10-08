@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {}
+    "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj": {}
   },
   "projects": {
-    "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+    "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj",
         "projectName": "ProyectoCiclo3.App.Dominio",
-        "projectPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\andres\\.nuget\\packages\\",
-        "outputPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\obj\\",
+        "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj",
+        "packagesPath": "/Users/andreamartinez/.nuget/packages/",
+        "outputPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/andreamartinez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -57,7 +57,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
         }
       }
     }

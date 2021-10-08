@@ -132,71 +132,138 @@
 /Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.csproj.CoreCompileInputs.cache
 /Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.csproj.CopyComplete
 /Users/andreamartinez/Documents/MINTIC/Ciclo3/Proyecto C3/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.genruntimeconfig.cache
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.exe
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.deps.json
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.runtimeconfig.json
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.runtimeconfig.dev.json
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.pdb
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Humanizer.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Dominio.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Persistencia.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Persistencia.pdb
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Dominio.pdb
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.csprojAssemblyReference.cache
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.AssemblyInfoInputs.cache
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.AssemblyInfo.cs
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.csproj.CoreCompileInputs.cache
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.csproj.CopyComplete
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.dll
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.pdb
-E:\Universidad\Mision TIC\Fundamentos de programacion\Ciclo3\Proyecto\MisionTIC\ProyectoCiclo3.App.Consola\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Consola.genruntimeconfig.cache
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.exe
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.deps.json
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.runtimeconfig.json
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.runtimeconfig.dev.json
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.pdb
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Humanizer.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Dominio.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Persistencia.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Persistencia.pdb
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Dominio.pdb
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.csprojAssemblyReference.cache
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.AssemblyInfoInputs.cache
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.AssemblyInfo.cs
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.csproj.CoreCompileInputs.cache
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.csproj.CopyComplete
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.dll
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.pdb
+E:/Universidad/Mision TIC/Fundamentos de programacion/Ciclo3/Proyecto/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.genruntimeconfig.cache
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.deps.json
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.runtimeconfig.json
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.runtimeconfig.dev.json
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.pdb
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Humanizer.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Dominio.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Persistencia.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Persistencia.pdb
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/bin/Debug/netcoreapp3.1/ProyectoCiclo3.App.Dominio.pdb
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.csprojAssemblyReference.cache
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.AssemblyInfoInputs.cache
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.AssemblyInfo.cs
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.csproj.CoreCompileInputs.cache
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.csproj.CopyComplete
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.dll
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.pdb
+/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Consola/obj/Debug/netcoreapp3.1/ProyectoCiclo3.App.Consola.genruntimeconfig.cache
