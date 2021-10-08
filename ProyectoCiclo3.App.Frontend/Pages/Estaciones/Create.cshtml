@@ -9,23 +9,31 @@
     <div class="row justify-content-md-center">
       <div class="col-6" >
         <label for="nombre" style="font-size:1.5rem">Nombre de la estacion:</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="nombre" name="nombre" placeholder="Ingrese nombre de la estacion" required>
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="nombre" asp-for="Estacion.nombre" placeholder="Ingrese nombre de la estacion" required>
+        <span class="text-danger" asp-validation-for="Estacion.nombre"></span>
         <hr>
         <label for="tipo" style="font-size:1.5rem">Tipo de estacion:</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="tipo" name="tipo" placeholder="Ingrese el tipo de estacion" required>
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="tipo" asp-for="Estacion.tipo" placeholder="Ingrese el tipo de estacion" required>
+        <span class="text-danger" asp-validation-for="Estacion.tipo"></span>
+        <hr>
       </div>
       <div class="col-6">
         <label for="direccion" style="font-size:1.5rem">Direccion de la estacion:</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="direccion" name="direccion" placeholder="Ingrese la direccion de la estacion"required>
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="direccion" asp-for="Estacion.direccion" placeholder="Ingrese la direccion de la estacion"required>
+        <span class="text-danger" asp-validation-for="Estacion.direccion"></span>
         <hr>
         <div class="row justify-content-md-center">
           <div class="col-6">
             <label for="coord_x" style="font-size:1.2rem">Coordenada x:</label>
-            <input type="double" class="form-control" style="background: #ffe4b5;border:2px solid black" id="coord_x" name="coord_x" placeholder="Ingrese la coordenada x" required>
+            <input type="double" class="form-control" style="background: #ffe4b5;border:2px solid black" id="coord_x" asp-for="Estacion.coord_x" placeholder="Ingrese la coordenada x" required>
+            <span class="text-danger" asp-validation-for="Estacion.coord_x"></span>
+            <hr>
           </div>
           <div class="col-6">
             <label for="coord_y" style="font-size:1.2rem">Coordenada y:</label>
-            <input type="double" class="form-control" style="background: #ffe4b5;border:2px solid black" id="coord_y" name="coord_y" placeholder="Ingrese la coordenada y" required>
+            <input type="double" class="form-control" style="background: #ffe4b5;border:2px solid black" id="coord_y" asp-for="Estacion.coord_y" placeholder="Ingrese la coordenada y" required>
+            <span class="text-danger" asp-validation-for="Estacion.coord_y"></span>
+            <hr>
           </div>
         </div>
       </div>

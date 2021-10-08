@@ -10,17 +10,29 @@
   <div class="row justify-content-md-center">
       <div class="col-6 col-md-auto col-lg-4">
   <label for="id" class="form-label d-none" style="font-size:1.4rem">id:</label>
-  <input type="text" class="form-control d-none" style="background: #ffe4b5;border:2px solid black" id="id" name="id" placeholder="id" asp-for="@bus.id">
+  <input type="text" class="form-control d-none" style="background: #ffe4b5;border:2px solid black" id="id"  placeholder="id" asp-for="Bus.id">
+  <span class="text-danger" asp-validation-for="Bus.id"></span>
+  <hr>
   <label for="Marca" class="form-label" style="font-size:1.4rem">Marca:</label>
-  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="marca" name="marca" placeholder="Marca" required asp-for="@bus.marca">
+  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="marca"  placeholder="Marca"  asp-for="Bus.marca">
+  <span class="text-danger" asp-validation-for="Bus.marca"></span>
+  <hr>
   <label for="Modelo" class="form-label" style="font-size:1.4rem">Modelo:</label>
-  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="modelo" name="modelo" placeholder="Modelo" required asp-for="@bus.modelo">
+  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="modelo"  placeholder="Modelo"  asp-for="Bus.modelo">
+  <span class="text-danger" asp-validation-for="Bus.modelo"></span>
+  <hr>
   <label for="Kilometraje" class="form-label" style="font-size:1.4rem">Kilometraje:</label>
-  <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="kilometraje" name="kilometraje" placeholder="Kilometraje" required asp-for="@bus.kilometraje">
+  <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="kilometraje"  placeholder="Kilometraje"  asp-for="Bus.kilometraje">
+  <span class="text-danger" asp-validation-for="Bus.kilometraje"></span>
+  <hr>
   <label for="Número de asientos" class="form-label" style="font-size:1.4rem">Número de asientos:</label>
-  <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="numero_asientos" name="numero_asientos" placeholder="Número de asientos" required asp-for="@bus.numero_asientos">
+  <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="numero_asientos"  placeholder="Número de asientos"  asp-for="Bus.numero_asientos">
+  <span class="text-danger" asp-validation-for="Bus.numero_asientos"></span>
+  <hr>
   <label for="Placa" class="form-label" style="font-size:1.4rem">Placa:</label>
-  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="Placa" name="placa" placeholder="placa" required maxlength="6" minlength="6" asp-for="@bus.placa">
+  <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="Placa"  placeholder="placa"  maxlength="6" minlength="6" asp-for="Bus.placa">
+  <span class="text-danger" asp-validation-for="Bus.placa"></span>
+  <hr>
   </div>
     </div>
   <hr>

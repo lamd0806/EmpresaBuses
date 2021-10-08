@@ -9,8 +9,8 @@ using ProyectoCiclo3.App.Persistencia;
 namespace ProyectoCiclo3.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210928040105_MigraInicial2")]
-    partial class MigraInicial2
+    [Migration("20211008034518_Migracion21")]
+    partial class Migracion21
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -31,6 +31,7 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("marca")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("modelo")
@@ -81,11 +82,11 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("destino")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("destino")
+                        .HasColumnType("int");
 
-                    b.Property<string>("origen")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("origen")
+                        .HasColumnType("int");
 
                     b.Property<int>("tiempo_estimado")
                         .HasColumnType("int");

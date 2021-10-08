@@ -9,8 +9,8 @@ using ProyectoCiclo3.App.Persistencia;
 namespace ProyectoCiclo3.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210914014730_MigraInicial1")]
-    partial class MigraInicial1
+    [Migration("20211008033643_Migracion")]
+    partial class Migracion
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -31,6 +31,7 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("marca")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("modelo")
@@ -54,11 +55,11 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<float>("coord_x")
-                        .HasColumnType("real");
+                    b.Property<double>("coord_x")
+                        .HasColumnType("float");
 
-                    b.Property<float>("coord_y")
-                        .HasColumnType("real");
+                    b.Property<double>("coord_y")
+                        .HasColumnType("float");
 
                     b.Property<string>("direccion")
                         .HasColumnType("nvarchar(max)");

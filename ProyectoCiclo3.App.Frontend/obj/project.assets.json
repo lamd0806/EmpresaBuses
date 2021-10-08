@@ -1486,6 +1486,9 @@
       "ProyectoCiclo3.App.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/ProyectoCiclo3.App.Dominio.dll": {}
         },
@@ -5737,19 +5740,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\v\\.nuget\\packages\\": {}
+    "C:\\Users\\andres\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\v\\Desktop\\Estudio\\ElMio\\MisionTIC\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "projectUniqueName": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
       "projectName": "ProyectoCiclo3.App.Frontend",
-      "projectPath": "C:\\Users\\v\\Desktop\\Estudio\\ElMio\\MisionTIC\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\v\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\v\\Desktop\\Estudio\\ElMio\\MisionTIC\\ProyectoCiclo3.App.Frontend\\obj\\",
+      "projectPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\andres\\.nuget\\packages\\",
+      "outputPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\v\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\andres\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5760,8 +5763,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\v\\Desktop\\Estudio\\ElMio\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\v\\Desktop\\Estudio\\ElMio\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+            "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+              "projectPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
             }
           }
         }

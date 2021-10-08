@@ -6,54 +6,44 @@ using System;
 namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 {
     public class RepositorioRutas{
-            List<Rutas> rutas;
+        private readonly AppContext _appContext = new AppContext(); 
  
-    public RepositorioRutas()
-        {
-            rutas= new List<Rutas>()
-            {
-                //Los nombres de los campos deben coincidir con los nombres creados en la entidad
-                new Rutas{id=1,origen=1,destino= 2,tiempo_estimado= 30},
-                new Rutas{id=2,origen=2,destino= 3,tiempo_estimado= 180},
-                new Rutas{id=3,origen=5,destino= 1,tiempo_estimado= 210}
- 
-            };
-        }
- 
+     
         public IEnumerable<Rutas> GetAll()
         {
-            return rutas;
+            return _appContext.Rutas;
         }
  
         public Rutas GetRutasWithId(int id){
-            return rutas.SingleOrDefault(r => r.id == id);
+            return _appContext.Rutas.Find(id);
         }
 
         public Rutas Create(Rutas newRuta)
         {
-          if(rutas.Count > 0){
-           newRuta.id=rutas.Max(r => r.id) +1; 
-            }else{
-               newRuta.id = 1; 
-            }
-           rutas.Add(newRuta);
-           return newRuta;
+            var addRuta = _appContext.Rutas.Add(newRuta);
+            _appContext.SaveChanges();
+            return addRuta.Entity;
         }
 
         public Rutas Update(Rutas newRutas){
-            var ruta= rutas.SingleOrDefault(r => r.id == newRutas.id);
+            var ruta = _appContext.Rutas.Find(newRutas.id);
             if(ruta != null){
                 ruta.origen = newRutas.origen;
                 ruta.destino = newRutas.destino;
                 ruta.tiempo_estimado = newRutas.tiempo_estimado;
+               
+                 _appContext.SaveChanges();
             }
         return ruta;
         }
-        public Rutas Delete(int id)
+
+        public void Delete(int id)
         {
-        var ruta= rutas.SingleOrDefault(r => r.id == id);
-        rutas.Remove(ruta);
-        return ruta;
+        var ruta = _appContext.Rutas.Find(id);
+        if (ruta == null)
+            return;
+        _appContext.Rutas.Remove(ruta);
+        _appContext.SaveChanges();    
         }
 
 

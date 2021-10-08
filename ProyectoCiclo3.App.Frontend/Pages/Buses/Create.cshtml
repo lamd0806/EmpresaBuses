@@ -10,19 +10,25 @@
       <div class="col-6 col-md-auto col-lg-4">
         
         <label for="marca" style="font-size:1.4rem">Marca</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="marca" name="marca" placeholder="Ingrese la marca" required>
-
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="marca" asp-for="Bus.marca" placeholder="Ingrese la marca">
+        <span class="text-danger" asp-validation-for="Bus.marca"></span>
+        <hr>
         <label for="modelo" style="font-size:1.4rem">Modelo</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="modelo" name="modelo" placeholder="Ingrese el modelo" required>
-
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="modelo" asp-for="Bus.modelo" placeholder="Ingrese el modelo" >
+        <span class="text-danger" asp-validation-for="Bus.modelo"></span>
+        <hr>
         <label for="kilometraje" style="font-size:1.4rem">Kilometraje</label>
-        <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="kilometraje" name="kilometraje" placeholder="Ingrese el kilometraje" required>
-      
-       <label for="numero_asientos" style="font-size:1.4rem">Número de Asientos</label>
-        <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="numero_asientos" name="numero_asientos" placeholder="Ingrese el número de Asientos" required>
-    
+        <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="kilometraje" asp-for="Bus.kilometraje" placeholder="Ingrese el kilometraje" >
+        <span class="text-danger" asp-validation-for="Bus.kilometraje"></span>
+        <hr>
+        <label for="numero_asientos" style="font-size:1.4rem">Número de Asientos</label>
+        <input type="number" class="form-control" style="background: #ffe4b5;border:2px solid black" id="numero_asientos" asp-for="Bus.numero_asientos" placeholder="Ingrese el número de Asientos">
+        <span class="text-danger" asp-validation-for="Bus.numero_asientos"></span>
+        <hr>
         <label for="placa" style="font-size:1.4rem">Placa</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="placa" name="placa" placeholder="Ingrese la placa" required maxlength="6" minlength="6">
+        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="placa" asp-for="Bus.placa" placeholder="Ingrese la placa" maxlength="6" minlength="6">
+        <span class="text-danger" asp-validation-for="Bus.placa"></span>
+        <hr>
       </div>
     </div>
     <hr>

@@ -11,10 +11,9 @@ namespace ProyectoCiclo3.App.Frontend.Pages
 {
     public class ListRutaModel : PageModel
     { 
-       
-        private readonly RepositorioRutas repositorioRutas;
         [BindProperty]
         public Rutas Ruta {get;set;}
+        private readonly RepositorioRutas repositorioRutas;
         public IEnumerable<Rutas> Rutas {get;set;}
  
     public ListRutaModel(RepositorioRutas repositorioRutas)
@@ -30,7 +29,8 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     {
         if(Ruta.id>0)
         {
-        Ruta = repositorioRutas.Delete(Ruta.id);
+        //Ruta = repositorioRutas.Delete(Ruta.id);
+        repositorioRutas.Delete(Ruta.id);
         }
         return RedirectToPage("./List");
     }
