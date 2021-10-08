@@ -6,14 +6,32 @@
 <div class="text-center">
   <h1 style="background: linear-gradient(#000046, #2f4f4f); color: #dcdcdc">Registro de Rutas</h1>
   <form method="post" style="background:#d3d3d3" class="container-fluid">
+
     <div class="row justify-content-md-center">
       <div class="col-6 col-md-auto col-lg-4">
         <label for="origen" style="font-size:1.4rem">Origen</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="origen" asp-for="Ruta.origen" placeholder="Ingrese el Origen" required>
+
+        <select asp-for="Ruta.origen" class="form-control" style="background: #ffe4b5;border:2px solid black"  required>
+          <option value="">Selecciona el origen</option>
+          @foreach (var estacion in Model.Estaciones)
+          {
+            <option value="@estacion.id">@estacion.nombre</option>
+          }
+        </select>
+        
         <span class="text-danger" asp-validation-for="Ruta.origen"></span>
         <hr>
         <label for="destino" style="font-size:1.4rem">Destino</label>
-        <input type="text" class="form-control" style="background: #ffe4b5;border:2px solid black" id="destino" asp-for="Ruta.destino" placeholder="Ingrese el Destino" required>
+
+        <select asp-for="Ruta.destino" class="form-control" style="background: #ffe4b5;border:2px solid black"  required>
+          <option value="">Selecciona el destino</option>
+          @foreach (var estacion in Model.Estaciones)
+          {
+            <option value="@estacion.id">@estacion.nombre</option>
+          }
+        </select>
+
+        
         <span class="text-danger" asp-validation-for="Ruta.destino"></span>
         <hr>
         <label for="tiempo_estimado" style="font-size:1.4rem">Tiempo Estimado</label>
