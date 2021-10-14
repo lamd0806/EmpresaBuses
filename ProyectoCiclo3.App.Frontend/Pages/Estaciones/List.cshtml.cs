@@ -6,34 +6,36 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ProyectoCiclo3.App.Persistencia.AppRepositorios;
 using ProyectoCiclo3.App.Dominio;
+using Microsoft.AspNetCore.Authorization;
 
-namespace  ProyectoCiclo3.App.Frontend.Pages
+namespace ProyectoCiclo3.App.Frontend.Pages
 {
+    [Authorize]
     public class ListEstacionesModel : PageModel
-    {   
+    {
         [BindProperty]
-        public Estaciones Estacion {get;set;}
+        public Estaciones Estacion { get; set; }
         private readonly RepositorioEstaciones repositorioEstaciones;
-        public IEnumerable<Estaciones> Estaciones {get;set;}
+        public IEnumerable<Estaciones> Estaciones { get; set; }
 
-    public ListEstacionesModel(RepositorioEstaciones repositorioEstaciones)
-    {
-        this.repositorioEstaciones=repositorioEstaciones;
-     }
-    public void OnGet()
-    {
-        Estaciones=repositorioEstaciones.GetAll();
-    }
-
-    public IActionResult OnPost()
-    {
-        if(Estacion.id>0)
+        public ListEstacionesModel(RepositorioEstaciones repositorioEstaciones)
         {
-        //Estacion = repositorioEstaciones.Delete(Estacion.id);
-        repositorioEstaciones.Delete(Estacion.id);
+            this.repositorioEstaciones = repositorioEstaciones;
         }
-        return RedirectToPage("./List");
-    }
+        public void OnGet()
+        {
+            Estaciones = repositorioEstaciones.GetAll();
+        }
+
+        public IActionResult OnPost()
+        {
+            if (Estacion.id > 0)
+            {
+                //Estacion = repositorioEstaciones.Delete(Estacion.id);
+                repositorioEstaciones.Delete(Estacion.id);
+            }
+            return RedirectToPage("./List");
+        }
 
     }
 }

@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,50 +8,73 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
+
 <body style="background-color:#fdfd8d">
-    
+
     <header style="background-color:#fdfd8d">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black;" class="container">
                 <a style="font-size:1.5rem" class="navbar-brand" asp-area="" asp-page="/Index">Bienvenid@S</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div style="background: linear-gradient(#ffbf47, #fdfd8d)" class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                       
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="font-size:1.5rem; background: linear-gradient(#ffbf47, #fdfd8d)">
-                            Buses
-                            </a>
-                            <ul class="dropdown-menu" style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black">
-                                <li><a class="dropdown-item" href="/Buses/Create">Registro de Buses</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="/Buses/List">Listado de Buses</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="font-size:1.5rem; background: linear-gradient(#ffbf47, #fdfd8d)">
-                            Estaciones
-                            </a>
-                            <ul class="dropdown-menu" style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black">
-                                <li><a class="dropdown-item" href="/Estaciones/Create">Registro de Estaciones</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="/Estaciones/List">Listado de Estaciones</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="font-size:1.5rem; background: linear-gradient(#ffbf47, #fdfd8d)">
-                            Rutas
-                            </a>
-                            <ul class="dropdown-menu" style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black">
-                                <li><a class="dropdown-item" href="/Rutas/Create">Registro de Rutas</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="/Rutas/List">Listado de Rutas</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                <div style="background: linear-gradient(#ffbf47, #fdfd8d)"
+                    class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    @Html.Partial("_LoginPartial")
+                    @using Microsoft.AspNetCore.Identity
+                    @inject SignInManager<IdentityUser> SignInManager
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <ul class="navbar-nav flex-grow-1">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown"
+                                style="font-size:1.5rem; background: linear-gradient(#ffbf47, #fdfd8d)">
+                                    Buses
+                                </a>
+                                <ul class="dropdown-menu"
+                                style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black">
+                                    <li><a class="dropdown-item" href="/Buses/Create">Registro de Buses</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="/Buses/List">Listado de Buses</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown"
+                                style="font-size:1.5rem; background: linear-gradient(#ffbf47, #fdfd8d)">
+                                    Estaciones
+                                </a>
+                                <ul class="dropdown-menu"
+                                style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black">
+                                    <li><a class="dropdown-item" href="/Estaciones/Create">Registro de Estaciones</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="/Estaciones/List">Listado de Estaciones</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown"
+                                style="font-size:1.5rem; background: linear-gradient(#ffbf47, #fdfd8d)">
+                                    Rutas
+                                </a>
+                                <ul class="dropdown-menu"
+                                style="background: linear-gradient(#ffbf47, #fdfd8d);border:2px solid black">
+                                    <li><a class="dropdown-item" href="/Rutas/Create">Registro de Rutas</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="/Rutas/List">Listado de Rutas</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    }
                 </div>
             </div>
         </nav>
@@ -73,4 +97,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>
