@@ -7266,19 +7266,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/andreamartinez/.nuget/packages/": {}
+    "C:\\Users\\v\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
       "projectName": "ProyectoCiclo3.App.Persistencia",
-      "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Persistencia/ProyectoCiclo3.App.Persistencia.csproj",
-      "packagesPath": "/Users/andreamartinez/.nuget/packages/",
-      "outputPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Persistencia/obj/",
+      "projectPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\v\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/andreamartinez/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\v\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7289,8 +7289,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj": {
-              "projectPath": "/Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Dominio/ProyectoCiclo3.App.Dominio.csproj"
+            "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
             }
           }
         }
@@ -7340,16 +7340,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché /Users/andreamartinez/Documents/MINTIC/Ciclo3/Mio/MisionTIC/ProyectoCiclo3.App.Persistencia/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

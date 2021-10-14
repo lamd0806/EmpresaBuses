@@ -6,36 +6,39 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ProyectoCiclo3.App.Persistencia.AppRepositorios;
 using ProyectoCiclo3.App.Dominio;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
+
+    [Authorize]
     public class FormRutaModel : PageModel
     {
         private readonly RepositorioEstaciones repositorioEstaciones;
-        public IEnumerable<Estaciones> Estaciones {get;set;}
+        public IEnumerable<Estaciones> Estaciones { get; set; }
 
         private readonly RepositorioRutas repositorioRutas;
         [BindProperty]
-        public Rutas Ruta {get;set;}
- 
+        public Rutas Ruta { get; set; }
+
         public FormRutaModel(RepositorioRutas repositorioRutas, RepositorioEstaciones repositorioEstaciones)
-       {
-            this.repositorioRutas=repositorioRutas;
-            this.repositorioEstaciones=repositorioEstaciones;
-       }
+        {
+            this.repositorioRutas = repositorioRutas;
+            this.repositorioEstaciones = repositorioEstaciones;
+        }
 
         public void OnGet()
         {
-            Estaciones=repositorioEstaciones.GetAll();
+            Estaciones = repositorioEstaciones.GetAll();
         }
 
         public IActionResult OnPost()
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return Page();
-            }            
-            Ruta = repositorioRutas.Create(Ruta);            
+            }
+            Ruta = repositorioRutas.Create(Ruta);
             return RedirectToPage("./List");
         }
     }

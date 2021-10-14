@@ -53,11 +53,11 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<float>("coord_x")
-                        .HasColumnType("real");
+                    b.Property<double>("coord_x")
+                        .HasColumnType("float");
 
-                    b.Property<float>("coord_y")
-                        .HasColumnType("real");
+                    b.Property<double>("coord_y")
+                        .HasColumnType("float");
 
                     b.Property<string>("direccion")
                         .HasColumnType("nvarchar(max)");
