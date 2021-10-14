@@ -8,9 +8,11 @@ using ProyectoCiclo3.App.Persistencia.AppRepositorios;
 using ProyectoCiclo3.App.Dominio;
 using Microsoft.AspNetCore.Authorization;
 
-namespace ProyectoCiclo3.App.Frontend.Pages
+namespace  ProyectoCiclo3.App.Frontend.Pages
 {
-    [Authorize]
+    
+[Authorize]
+
     public class ListEstacionesModel : PageModel
     {
         [BindProperty]
