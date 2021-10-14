@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {}
+    "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+    "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "projectUniqueName": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
         "projectName": "ProyectoCiclo3.App.Dominio",
-        "projectPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\v\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\v\\Desktop\\Estudio\\Nuevos cambios\\MisionTIC\\ProyectoCiclo3.App.Dominio\\obj\\",
+        "projectPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\andres\\.nuget\\packages\\",
+        "outputPath": "E:\\Universidad\\Mision TIC\\Fundamentos de programacion\\Ciclo3\\Proyecto\\MisionTIC\\ProyectoCiclo3.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\v\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\andres\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
